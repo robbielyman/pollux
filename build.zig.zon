@@ -1,0 +1,17 @@
+.{
+    .name = .pollux,
+    .version = "0.0.0",
+    .fingerprint = 0x9d2942bc82408a53, // Changing this has security and trust implications.
+    .minimum_zig_version = "0.16.0-dev.2535+b5bd49460",
+    .dependencies = .{
+        .moon_base = .{
+            .url = "git+https://github.com/robbielyman/moon-base#ce57e5bbf2a042992b237723f8c7c817ac4afcf7",
+            .hash = "moon_base-0.0.0-8A8d2H83AADux8VbmlZdk9fQFFv45NFvWuEieqBY_h2S",
+        },
+    },
+    .paths = .{
+        "build.zig",
+        "build.zig.zon",
+        "src",
+    },
+}
